@@ -1,10 +1,10 @@
-// Information for course
+// Information for course data
 const CourseInfo = {
   id: 308,
   name: `Introduction to JavaScript`,
 };
 
-// Assignmetns for course
+// Assignmetns for course data
 const AssignmentGroup = {
   id: 803,
   name: `Fundamentals of JavaScript`,
@@ -43,3 +43,89 @@ const AssignmentGroup = {
     },
   ],
 };
+
+// Learner submission data
+const LearnerSubmissions = [
+  // First learner
+  {
+    learner_id: 123,
+    assignment_id: 1,
+    submission: {
+      submitted_at: "2024-05-22",
+      score: 100,
+    },
+  },
+  {
+    learner_id: 123,
+    assignment_id: 2,
+    submission: {
+      submitted_at: "2024-05-23",
+      score: 25,
+    },
+  },
+  {
+    learner_id: 123,
+    assignment_id: 3,
+    submission: {
+      submitted_at: "2024-05-24",
+      score: 100,
+    },
+  },
+  {
+    learner_id: 123,
+    assignment_id: 4,
+    submission: {
+      submitted_at: "2024-05-29",
+      score: 200,
+    },
+  },
+  {
+    learner_id: 123,
+    assignment_id: 5,
+    submission: {
+      submitted_at: "2024-05-29",
+      score: 100,
+    },
+  },
+  // Second learner
+  {
+    learner_id: 321,
+    assignment_id: 1,
+    submission: {
+      submitted_at: "2024-05-22",
+      score: 100,
+    },
+  },
+  {
+    learner_id: 321,
+    assignment_id: 2,
+    submission: {
+      submitted_at: "2024-05-23",
+      score: 50,
+    },
+  },
+  {
+    learner_id: 321,
+    assignment_id: 3,
+    submission: {
+      submitted_at: "2024-05-24",
+      score: 100,
+    },
+  },
+  {
+    learner_id: 321,
+    assignment_id: 4,
+    submission: {
+      submitted_at: "2024-05-27",
+      score: 200,
+    },
+  },
+  {
+    learner_id: 321,
+    assignment_id: 5,
+    submission: {
+      submitted_at: "2024-05-29",
+      score: 100,
+    },
+  },
+];
